@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://dimarudik001-lgtm.github.io/remont-kvartir/sitemap.xml
