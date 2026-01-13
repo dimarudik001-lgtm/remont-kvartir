@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ремонт квартир в Москве под ключ | Студия "Домовой" 2024</title>
+    <meta name="description" content="✅ Ремонт квартир в Москве под ключ. Капитальный, евроремонт, дизайн-проект. Гарантия 3 года. Бесплатный замер. ☎ +7 (495) 123-45-67">
+    <meta name="yandex-verification" content="3359393cc7455861">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: Arial; background: #f5f5f5; }
+        .header { background: #2c3e50; color: white; padding: 30px; text-align: center; }
+        .header h1 { font-size: 2.5rem; margin-bottom: 10px; }
+        .phone { color: #f1c40f; font-size: 1.5rem; display: block; margin: 15px 0; }
+        .hero { background: #3498db; color: white; padding: 60px 20px; text-align: center; }
+        .hero h2 { font-size: 2rem; margin-bottom: 20px; }
+        .btn { background: #e74c3c; color: white; padding: 15px 40px; border: none; font-size: 1.2rem; cursor: pointer; }
+        .services { max-width: 1200px; margin: 40px auto; padding: 0 20px; }
+        .service { background: white; padding: 25px; margin: 20px 0; border-radius: 10px; }
+        .price { color: #e74c3c; font-size: 1.3rem; font-weight: bold; }
+        footer { background: #2c3e50; color: white; padding: 40px; text-align: center; }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Студия Ремонта "Домовой"</h1>
+        <p>Ремонт квартир в Москве с 2012 года</p>
+        <a href="tel:+74951234567" class="phone">+7 (495) 123-45-67</a>
+    </header>
+    
+    <section class="hero">
+        <h2>Ремонт квартир под ключ в Москве</h2>
+        <p>Гарантия 3 года • Бесплатный дизайн-проект • Фиксированные цены</p>
+        <button class="btn" onclick="document.getElementById('form').scrollIntoView()">Получить бесплатную смету</button>
+    </section>
+    
+    <div class="services">
+        <h2 style="text-align:center; margin: 30px 0;">Наши услуги</h2>
+        <div class="service">
+            <h3>Косметический ремонт</h3>
+            <p>Покраска стен, поклейка обоев, замена напольного покрытия, установка плинтусов</p>
+            <p class="price">от 3 500 ₽/м²</p>
+        </div>
+        <div class="service">
+            <h3>Капитальный ремонт</h3>
+            <p>Полная перепланировка, замена инженерных систем, выравнивание стен и потолков</p>
+            <p class="price">от 6 500 ₽/м²</p>
+        </div>
+        <div class="service">
+            <h3>Евроремонт под ключ</h3>
+            <p>Дизайн-проект, премиум материалы, умный дом, авторский надзор, подбор мебели</p>
+            <p class="price">от 9 500 ₽/м²</p>
+        </div>
+    </div>
+    
+    <div style="max-width: 600px; margin: 40px auto; padding: 30px; background: white;" id="form">
+        <h2 style="text-align:center;">Расчет стоимости ремонта</h2>
+        <input type="text" placeholder="Ваше имя" style="width:100%; padding:15px; margin:10px 0;">
+        <input type="tel" placeholder="Телефон" style="width:100%; padding:15px; margin:10px 0;">
+        <input type="number" placeholder="Площадь квартиры (м²)" style="width:100%; padding:15px; margin:10px 0;">
+        <button class="btn" style="width:100%;">Получить расчет</button>
+    </div>
+    
+    <footer>
+        <h3>Контакты</h3>
+        <p>Телефон: +7 (495) 123-45-67</p>
+        <p>Адрес: Москва, ул. Строителей, 15</p>
+        <p>© 2024 Студия Ремонта "Домовой"</p>
+    </footer>
+    
+    <script>
+        document.querySelector('.btn').addEventListener('click', function() {
+            alert('Заявка принята! Мы позвоним вам в течение 15 минут.');
+        });
+    </script>
+</body>
+</html>
